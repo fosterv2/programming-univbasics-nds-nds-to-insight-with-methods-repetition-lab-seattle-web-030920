@@ -46,7 +46,7 @@ def total_gross(source)
   director_index = 0
   while director_index < source.length do
     name = list[director_index]
-    total_gross += source[director_index][name]
+    total_gross += director_gross[name]
     director_index += 1
   end
   total_gross
